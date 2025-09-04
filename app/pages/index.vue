@@ -1,25 +1,21 @@
 <template>
-  <div class="flex flex-col items-center justify-center gap-4 h-screen">
-    <h1 class="font-bold text-2xl text-(--ui-primary)">
-      Nuxt UI - Starter
-    </h1>
+  <Hero />
+  
+  <SportPageSection class="opacity-0 intersect:opacity-100 intersect:animate-jump-in animate-duration-[2500] animate-ease-linear transition intersect-once"/>
 
-    <div class="flex items-center gap-2">
-      <UButton
-        label="Documentation"
-        icon="i-lucide-square-play"
-        to="https://ui.nuxt.com/getting-started/installation/nuxt"
-        target="_blank"
-      />
+  <USeparator color="primary" size="sm" />
 
-      <UButton
-        label="GitHub"
-        color="neutral"
-        variant="outline"
-        icon="i-simple-icons-github"
-        to="https://github.com/nuxt/ui"
-        target="_blank"
-      />
-    </div>
-  </div>
+  <RekreacijaPageSection />
+
+  <USeparator color="primary" size="sm" />
+
+  <DjecaPageSection />
+
+  <USeparator color="primary" size="sm" />
+
+  <DijagnostikaPageSection />
+
+  <USeparator color="primary" size="sm" />
+
+  <RehabilitacijaPageSection />
 </template>
