@@ -8,9 +8,21 @@
   --font-montserrat: 'Montserrat', sans-serif;
   --font-cocogoose: 'Cocogoose', sans-serif;
 
+  --color-primary-50: #5EE1E8;
+  --color-primary-100: #4CDEE6;
+  --color-primary-200: #3BDBE3;
+  --color-primary-300: #29D7E0;
+  --color-primary-400: #1FCDD6;
+  --color-primary-500: #1CBCC4;
   --color-primary: #1BB2B9;
+  --color-primary-700: #179AA1;
+  --color-primary-800: #14898F;
+  --color-primary-900: #12787D;
+
   --color-secondary: #565959;
+
   --color-third: #EDCF99;
+  
   --color-accent: #80D30A;
 }
 

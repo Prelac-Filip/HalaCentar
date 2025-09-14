@@ -1,6 +1,15 @@
 <template>
   <div>
-    
+    <UContainer>
+      <UPage>
+        <UPageHeader 
+          title="Sportaši" 
+          :ui="{
+            title: 'hover:text-primary',
+          }"
+        />
+      </UPage>
+    </UContainer>
   </div>
 </template>
 

@@ -35,7 +35,7 @@ const links = ref([
     :features="features"
     :links="links"
     :ui="{
-      title: 'hover:text-primary cursor-pointer',
+      title: 'text-primary cursor-pointer underline decoration-wavy decoration-primary/60 hover:text-third hover:decoration-solid hover:decoration-third/60',
     }"
     reverse
   >

@@ -6,9 +6,12 @@ import AppHeader from './components/AppHeader.vue';
 <template>
   <UApp>
     <AppHeader />
+    
     <UMain>
       <NuxtPage />
     </UMain>
+    
+    <AppFooter />
   </UApp>
 </template>
 

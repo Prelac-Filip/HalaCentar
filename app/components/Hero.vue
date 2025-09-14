@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen w-screen bg-gradient-to-b from-primary to-green-300 -z-1 justify-start content-center">
+  <div class="h-screen w-screen bg-gradient-to-br from-primary to-primary-50 -z-1 justify-start content-center">
     <div class="mx-auto max-w-7xl pt-16 sm:pt-24">
       <div class="space-y-8 lg:space-y-0 lg:grid lg:grid-cols-12 lg:gap-8">
         <div class="px-6 sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:flex lg:items-center lg:text-left">
@@ -32,21 +32,21 @@
             <div class="flex space-x-4 justify-center items-center text-white">
               <div class="flex items-center space-x-2">
                 <div class="flex flex-shrink-0 -space-x-1">
-                  <img loading="lazy" width="19" height="19" decoding="async"
+                  <NuxtImg loading="lazy" width="19" height="19" decoding="async"
                     class="h-6 w-6 max-w-none rounded-full ring-2 ring-white" style="color:transparent"
-                    src="https://randomuser.me/api/portraits/men/29.jpg">
-                  <img loading="lazy" width="19" height="19" decoding="async"
+                    src="https://randomuser.me/api/portraits/men/29.jpg" />
+                  <NuxtImg loading="lazy" width="19" height="19" decoding="async"
                     class="h-6 w-6 max-w-none rounded-full ring-2 ring-white" style="color:transparent"
-                    src="https://randomuser.me/api/portraits/men/90.jpg">
-                  <img loading="lazy" width="19" height="19" decoding="async"
+                    src="https://randomuser.me/api/portraits/men/90.jpg"/>
+                  <NuxtImg loading="lazy" width="19" height="19" decoding="async"
                     class="h-6 w-6 max-w-none rounded-full ring-2 ring-white" style="color:transparent"
-                    src="https://randomuser.me/api/portraits/men/75.jpg">
-                  <img loading="lazy" width="19" height="19" decoding="async"
+                    src="https://randomuser.me/api/portraits/men/75.jpg"/>
+                  <NuxtImg loading="lazy" width="19" height="19" decoding="async"
                     class="h-6 w-6 max-w-none rounded-full ring-2 ring-white" style="color:transparent"
-                    src="https://randomuser.me/api/portraits/men/5.jpg">
+                    src="https://randomuser.me/api/portraits/men/5.jpg"/>
                 </div>
 
-                <span class="flex-shrink-0 text-xs font-medium leading-5">+15</span>
+                <span class="flex-shrink-0 text-xs font-medium leading-5">+9</span>
 
               </div>
 
@@ -108,7 +108,7 @@
 
         <div class="flex items-center w-full col-span-6">
           <UCarousel v-slot="{ item }" dots :items="pictures" loop width="680" height="453" :autoplay="{ delay: 2500 }">
-            <NuxtImg :src="item" class="rounded-xl" />
+            <NuxtImg :src="item" class="rounded-xl" width="680" height="453"/>
           </UCarousel>
           <!-- <div class="px-6 h-96 lg:h-100% w-full max-w-2xl col-span-6 flex items-center mx-auto">
             <div style="width: 100%; height: 100%;">
@@ -129,7 +129,7 @@
 
 <script lang="ts" setup>
 function scrollToCards() {
-  const el = document.getElementById('traning-cards')
+  const el = document.getElementById('sport-card')
   if (el) {
     const y = el.getBoundingClientRect().top + window.scrollY - 60 // adjust pixels to your desired offset
     window.scrollTo({ top: y, behavior: 'smooth' })

@@ -30,12 +30,12 @@ const links = ref([
 <template>
   <UPageSection
     title="Sportaši"
-    description="Jeste li spremni doesgnuti vrh? U Hala centru, program za sportaše je plamen koji rasplamsava ambiciju mladih i iskusnih sportaša, osmišljen da izbrusi vašu snagu, brzinu i mentalnu čvrstoću."
+    description="Jeste li spremni dosegnuti vrh? U Hala centru, program za sportaše je plamen koji rasplamsava ambiciju mladih i iskusnih sportaša, osmišljen da izbrusi vašu snagu, brzinu i mentalnu čvrstoću."
     orientation="horizontal"
     :features="features"
     :links="links"
     :ui="{
-      title: 'hover:text-primary cursor-pointer',
+      title: 'text-primary cursor-pointer underline decoration-wavy decoration-primary/60 hover:text-third hover:decoration-solid hover:decoration-third/60',
     }"
   >
     <NuxtImg

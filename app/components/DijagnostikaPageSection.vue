@@ -2,7 +2,7 @@
 const features = ref([
   {
     title: 'Morfološko testiranje',
-    description: 'Radimo detaljno morfološko testiranje koje uključuje mjerenje tjelesne mase, visine, opsega i debljine kožnih nabora kako bismo dobili preciznu sliku o vašoj tjelesnoj strukturi i sastavu.',
+    description: 'Radimo detaljno morfološko testiranje koje uključuje mjerenje tjelesne mase, visine, opsega i debljine kožnih nabora kako bismo dobili preciznu sliku o Vašoj tjelesnoj strukturi i sastavu.',
     icon: 'hugeicons:body-part-muscle',
   },
   {
@@ -35,7 +35,7 @@ const links = ref([
     :features="features"
     :links="links"
     :ui="{
-      title: 'hover:text-primary cursor-pointer',
+      title: 'text-primary cursor-pointer underline decoration-wavy decoration-primary/60 hover:text-third hover:decoration-solid hover:decoration-third/60',
     }"
     reverse
   >

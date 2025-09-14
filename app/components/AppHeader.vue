@@ -4,11 +4,6 @@ import type { NavigationMenuItem } from '@nuxt/ui';
 const items = ref<NavigationMenuItem[][]>([
   [
     {
-      label: "Početna",
-      icon: "fa-solid:home",
-      to: "/",
-    },
-    {
       label: "Sportaši",
       icon: "fa6-solid:dumbbell",
       to: "/sportasi",
@@ -35,6 +30,11 @@ const items = ref<NavigationMenuItem[][]>([
       to: "/rehabilitacija",
     },
     {
+      label: "Online treninzi",
+      icon: "fluent:calendar-video-20-filled",
+      to: "/online-treninzi",
+    },
+    {
       label: "O nama",
       icon: "fa7-solid:circle-info",
       to: "/o-nama",
@@ -46,9 +46,12 @@ const items = ref<NavigationMenuItem[][]>([
 <template>
   <UHeader>
     <template #left>
-      <NuxtLink to="/">
-        <AppLogo class="w-auto h-6 shrink-0" />
-      </NuxtLink>
+      <div class="flex flex-row justify-center items-center">
+        <NuxtLink to="/">
+          <AppLogo class="w-auto h-14 shrink-0" />
+        </NuxtLink>
+        <ULink to="/">Hala Centar</ULink>
+      </div>
     </template>
 
     <template #default>
@@ -56,9 +59,9 @@ const items = ref<NavigationMenuItem[][]>([
     </template>
 
     <template #right> 
-        <UButton icon="fa7-solid:film" size="md" variant="ghost"/>
-        <UButton icon="fa6-brands:instagram" size="md" variant="ghost"/>
-        <UButton icon="fa6-brands:facebook" size="md" variant="link"/>
+        <UButton icon="fa7-solid:film" size="md" variant="link" color="neutral" to="/galerija"/>
+        <UButton icon="fa6-brands:instagram" size="md" variant="link" color="neutral" to="https:\\instagram.com" target="_blank"/>
+        <UButton icon="fa6-brands:facebook" size="md" variant="link" color="neutral" to="https:\\facebook.com" target="_blank"/>
 
         <UColorModeButton />
     </template>
