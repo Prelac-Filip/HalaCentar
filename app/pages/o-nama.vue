@@ -36,6 +36,14 @@
       </UPage>
     </UContainer>
 
+    <div class="hidden lg:block">
+      <NuxtImg
+        src="/img/left_side2.png"
+        class="hidden 2xl:block absolute pointer-events-none pb-10 left-0 top-0 object-cover h-[650px]"
+        loading="lazy"
+      />
+    </div>
+
     <UPageSection
       title="Hrvoje"
       description="Kondicijski trener s više od deset godina iskustva i diplomom Kineziološkog fakulteta, poznat po svojoj stručnosti u rehabilitaciji i kondicijskoj pripremi."
