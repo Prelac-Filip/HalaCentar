@@ -39,14 +39,6 @@
       </UPage>
     </UContainer>
 
-    <div class="hidden lg:block">
-      <NuxtImg
-        src="/img/left_side2.png"
-        class="hidden 2xl:block absolute pointer-events-none pb-10 left-0 top-0 object-cover h-[650px]"
-        loading="lazy"
-      />
-    </div>
-
     <UPageSection
       title="Hrvoje"
       description="Kondicijski trener s više od deset godina iskustva i diplomom Kineziološkog fakulteta, poznat po svojoj stručnosti u rehabilitaciji i kondicijskoj pripremi."
@@ -180,7 +172,7 @@ const welcomeCards = ref([
   },
   {
     title: 'Tu smo za Vas',
-    description: ' Bilo da želite poboljšati performanse, vratiti snagu nakon ozljede, uživati u pokretu ili pomoći svom djetetu da raste snažno, Hala centar je tu da vas podrži na svakom koraku.',
+    description: 'Bilo da želite poboljšati performanse, vratiti snagu nakon ozljede, uživati u pokretu ili pomoći svom djetetu da raste snažno, Hala centar je tu da vas podrži na svakom koraku.',
     icon: 'fluent:heart-circle-20-filled',
   }
 ])

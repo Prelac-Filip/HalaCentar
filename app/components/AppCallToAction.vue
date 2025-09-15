@@ -22,5 +22,7 @@ const links = ref([
     description="Kliknite na dugme kako biste nam poslali Vaše kontakt informacije i trening preference!"
     :links="links"
     variant="subtle"
-  />
+  >
+    <LazyStarsBg />
+  </UPageCTA>
 </template>

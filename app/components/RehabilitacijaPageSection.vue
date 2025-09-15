@@ -2,7 +2,7 @@
 const features = ref([
   {
     title: 'Početak rehabilitacije',
-    description: 'Svaki oporavak započinje toplim dočekom gdje u povjerljivom razgovoru dijelimo vaše ciljeve, iskustvo i povijest ozljede, a vi nam donosite sve nalaze od liječnika kako bismo točno razumjeli vaš slučaj i odredili smjer rada.',
+    description: 'Svaki oporavak započinje toplim dočekom gdje u povjerljivom razgovoru dijelimo Vaše ciljeve, iskustvo i povijest ozljede, a vi nam donosite sve nalaze od liječnika kako bismo točno razumjeli Vaš slučaj i odredili smjer rada.',
     icon: 'fluent:doctor-20-regular',
   },
   {
