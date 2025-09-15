@@ -18,6 +18,9 @@
               v-bind="card"
               variant="subtle"
               highlight
+              :class="index==0 ? 'animate-fade-right animate-duration-[2500ms] animate-delay-500 animate-ease-in-out' : 
+                index==1 ? 'animate-fade-up animate-duration-[2500ms] animate-delay-[750ms] animate-ease-in-out' : 
+                index==2 ? 'animate-fade-left animate-duration-[2500ms] animate-delay-1000 animate-ease-in-out' : ''" 
             />
           </UPageGrid>
 
@@ -67,6 +70,7 @@
       :ui="{
         title: 'text-primary cursor-pointer underline decoration-wavy decoration-primary/60 hover:text-third hover:decoration-solid hover:decoration-third/60',
       }"
+      class="opacity-0 intersect:opacity-100 intersect:animate-fade-left animate-duration-[2500] animate-ease-linear transition intersect-once intersect-half"
     >
       <NuxtImg
         src="img/No-Image-Placeholder.svg"
@@ -104,6 +108,7 @@
         title: 'text-primary cursor-pointer underline decoration-wavy decoration-primary/60 hover:text-third hover:decoration-solid hover:decoration-third/60',
       }"
       reverse
+      class="opacity-0 intersect:opacity-100 intersect:animate-fade-right animate-duration-[2500] animate-ease-linear transition intersect-once intersect-half"
     >
       <NuxtImg
         src="img/No-Image-Placeholder.svg"
@@ -140,6 +145,7 @@
       :ui="{
         title: 'text-primary cursor-pointer underline decoration-wavy decoration-primary/60 hover:text-third hover:decoration-solid hover:decoration-third/60',
       }"
+      class="opacity-0 intersect:opacity-100 intersect:animate-fade-left animate-duration-[2500] animate-ease-linear transition intersect-once intersect-half"
     >
       <NuxtImg
         src="img/No-Image-Placeholder.svg"
