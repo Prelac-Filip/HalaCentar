@@ -65,7 +65,7 @@
             format="webp"
             width="352"
             height="352"
-            alt="Slika rekreativaca u grupnom treningu"
+            alt="Slika rekreativaca u grupnom treningu u Hala centru"
             class="w-full rounded-lg"
           />
         </UPageSection>
@@ -109,7 +109,7 @@
             format="webp"
             width="352"
             height="352"
-            alt="Slika rekreativca u samostalnom treningu"
+            alt="Slika rekreativca u samostalnom treningu u Hala centru"
             class="w-full rounded-lg"
           />
         </UPageSection>

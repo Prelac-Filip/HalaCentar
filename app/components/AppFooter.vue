@@ -18,13 +18,17 @@ const columns = [{
     label: 'Kontakt',
     children: [{
         label: '+385 91 234 5678',
-        icon: 'fluent:call-20-regular'
+        icon: 'fluent:call-20-regular',
+        to: 'tel:+385912345678'
     }, {
         label: 'info@hala.com',
-        icon: 'fluent:mail-20-regular'
+        icon: 'fluent:mail-20-regular',
+        to: 'mailto:info@hala.com?subject=Upit%20za%20trening'
     }, {
         label: 'Ul. Milutina Barača, Rijeka, Hrvatska, 51000',
-        icon: 'fluent:location-20-regular'
+        icon: 'fluent:location-20-regular',
+        to: 'https://maps.app.goo.gl/tc3GjXvSNL6u73TH7',
+        target: '_blank'
     }]
 }];
 

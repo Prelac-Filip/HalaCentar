@@ -66,7 +66,7 @@
             format="webp"
             width="352"
             height="352"
-            alt="Slika čovjeka u procesu rehabilitacije"
+            alt="Slika čovjeka u procesu rehabilitacije u Hala centru"
             class="w-full rounded-lg"
           />
         </UPageSection>

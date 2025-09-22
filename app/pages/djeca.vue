@@ -109,7 +109,7 @@
             format="webp"
             width="352"
             height="352"
-            alt="Slika djece u pokretu"
+            alt="Slika djece u pokretu u Hala centru"
             class="w-full rounded-lg"
           />
         </UPageSection>

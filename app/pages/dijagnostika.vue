@@ -61,7 +61,7 @@
             format="webp"
             width="352"
             height="352"
-            alt="Slika čovjeka u procesu rehabilitacije"
+            alt="Slika čovjeka u procesu testiranja svog sastava tijela u Hala centru"
           />
         </UPageSection>
 
@@ -89,7 +89,7 @@
             format="webp"
             width="352"
             height="352"
-            alt="Slika čovjeka u procesu rehabilitacije"
+            alt="Slika čovjeka u procesu testiranja svojih motoričkih sposobnosti u Hala centru"
           />
         </UPageSection>
 
@@ -117,21 +117,21 @@
             format="webp"
             width="352"
             height="352"
-            alt="Slika čovjeka u procesu rehabilitacije"
+            alt="Slika čovjeka u testiranju svoje mobilnosti i snage u Hala centru"
           />
         </UPageSection>
 
         <UPageSection
-          title="Motoričko testiranje"
+          title="Funkcionalno testiranje"
           orientation="vertical"
           :features="[{
-              title: 'My Jump aplikacija',
-              description: 'My Jump Lab je vodeća aplikacija za mjerenje sportske izvedbe, namijenjena trenerima, vrhunskim sportašima, fizioterapeutima i istraživačima. Koristimo je kako bi dobili preciznu sliku Vaših mogućnosti',
+              title: 'Tymewear',
+              description: 'Pomoću Tymeweara mjerimo srčane zone i obrasce disanja, omogućujući optimizaciju napora za sportaše koji ciljaju vrhunske performanse',
               icon: 'fluent:phone-20-regular'
             }, 
             {
-              title: 'Što mjerimo?',
-              description: 'Točne podatke o maksimalnoj dinamičkoj snazi (eksplozivna snaga pokreta), reaktivnoj snazi (brzina reakcije mišića), brzini (eksplozivnost) i promjeni smjera (agilnost), što nam omogućuje optimizaciju Vaših performansi ili Vašeg razvoja.',
+              title: 'Osim sportaša?',
+              description: 'Za rekreativce koji žele zdraviju formu ili osobe u oporavku kojima je potreban precizan plan, osiguravajući da svaki trening bude učinkovit i prilagođen.',
               icon: 'fluent:person-20-regular'
             }
           ]"
@@ -145,7 +145,7 @@
             format="webp"
             width="352"
             height="352"
-            alt="Slika čovjeka u procesu rehabilitacije"
+            alt="Slika čovjeka u procesu testiranja svojih funkcionalnih sposobnosti u Hala centru"
           />
         </UPageSection>
       </UPage>

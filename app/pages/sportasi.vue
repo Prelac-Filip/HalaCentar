@@ -60,7 +60,7 @@
             format="webp"
             width="352"
             height="352"
-            alt="Slika sportaša u pokretu"
+            alt="Slika sportaša u pokretu u Hala centru"
             class="w-full rounded-lg"
           />
         </UPageSection>
