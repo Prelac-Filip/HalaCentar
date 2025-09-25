@@ -107,9 +107,11 @@
         </div>
 
         <div class="flex items-center w-full col-span-6">
-          <UCarousel v-slot="{ item }" dots :items="pictures" loop width="680" height="453" :autoplay="{ delay: 2500 }">
-            <NuxtImg :src="item" class="rounded-xl" width="680" height="453"/>
-          </UCarousel>
+          <ClientOnly>
+            <UCarousel v-slot="{ item }" dots :items="pictures" loop width="680" height="453" :autoplay="{ delay: 2500 }">
+              <NuxtImg :src="item" class="rounded-xl" width="680" height="453"/>
+            </UCarousel>
+          </ClientOnly>
           <!-- <div class="px-6 h-96 lg:h-100% w-full max-w-2xl col-span-6 flex items-center mx-auto">
             <div style="width: 100%; height: 100%;">
               <div style="width: 100%; height: 100%;">

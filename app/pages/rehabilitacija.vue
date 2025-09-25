@@ -62,10 +62,8 @@
           reverse
         >
           <NuxtImg
-            src="img/No-Image-Placeholder.svg"
+            src="img/Rehabilitacija.jpg"
             format="webp"
-            width="352"
-            height="352"
             alt="Slika čovjeka u procesu rehabilitacije u Hala centru"
             class="w-full rounded-lg"
           />

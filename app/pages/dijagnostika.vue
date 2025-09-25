@@ -52,18 +52,36 @@
           ]"
           :ui="{
             title: 'hover:text-primary',
+            features: 'lg:grid-cols-2',
           }"
           class="opacity-0 intersect:opacity-100 intersect:animate-fade-down animate-duration-[2500] animate-ease-linear transition intersect-once"
         >
           <!-- Ovdje IFrame videa-->
-          <NuxtImg
-            src="img/No-Image-Placeholder.svg"
-            format="webp"
-            width="352"
-            height="352"
-            alt="Slika čovjeka u procesu testiranja svog sastava tijela u Hala centru"
-          />
+          <div class="flex flex-col justify-center md:flex-row gap-4 md:gap-8 lg:gap-16 mt-8 md:mt-0">
+            <div>  
+            <NuxtImg
+                src="img/Morfolosko.jpg"
+                format="webp"
+                width="1440"
+                height="1080"
+                alt="Slika čovjeka u procesu testiranja svog sastava tijela u Hala centru"
+                class="h-full w-full object-cover rounded-lg"
+              />
+            </div>
+            <div>
+              <NuxtImg
+                src="img/Morfolosko2.jpg"
+                format="webp"
+                width="1440"
+                height="1080"
+                alt="Slika objašnjenja rezultata u Hala centru"
+                class="h-full w-full object-cover rounded-lg"
+              />
+            </div>
+          </div>
         </UPageSection>
+
+        <USeparator color="primary" size="sm" />
 
         <UPageSection
           title="Motoričko testiranje"
@@ -81,17 +99,33 @@
           ]"
           :ui="{
             title: 'hover:text-primary',
+            features: 'lg:grid-cols-2',
           }"
           class="opacity-0 intersect:opacity-100 intersect:animate-fade-down animate-duration-[2500] animate-ease-linear transition intersect-once"
         >
-          <NuxtImg
-            src="img/No-Image-Placeholder.svg"
-            format="webp"
-            width="352"
-            height="352"
-            alt="Slika čovjeka u procesu testiranja svojih motoričkih sposobnosti u Hala centru"
-          />
+          <div class="flex flex-col justify-center md:flex-row gap-4 md:gap-8 lg:gap-16 mt-8 md:mt-0">
+            <div>
+              <NuxtImg
+                src="img/Motoricko.jpg"
+                format="webp"
+                alt="Slika čovjeka u procesu testiranja svojih motoričkih sposobnosti u Hala centru"
+                class="h-full w-full object-cover rounded-lg"
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <NuxtImg
+                src="img/Motoricko2.jpg"
+                format="webp"
+                alt="Slika revizije rezultata u Hala centru"
+                class="h-full w-full object-cover rounded-lg"
+                loading="lazy"
+              />
+            </div>
+          </div>
         </UPageSection>
+
+        <USeparator color="primary" size="sm" />
 
         <UPageSection
           title="Mobilnost i snaga"
@@ -109,17 +143,37 @@
           ]"
           :ui="{
             title: 'hover:text-primary',
+            features: 'lg:grid-cols-2',
           }"
           class="opacity-0 intersect:opacity-100 intersect:animate-fade-down animate-duration-[2500] animate-ease-linear transition intersect-once"
         >
-          <NuxtImg
-            src="img/No-Image-Placeholder.svg"
-            format="webp"
-            width="352"
-            height="352"
-            alt="Slika čovjeka u testiranju svoje mobilnosti i snage u Hala centru"
-          />
+          <div class="flex flex-col justify-center md:flex-row gap-4 md:gap-8 lg:gap-16 mt-8 md:mt-0">
+            <div>
+              <NuxtImg
+                src="img/Mobilnost.jpg"
+                format="webp"
+                width="1440"
+                height="1080"
+                alt="Slika čovjeka u testiranju svoje mobilnosti i snage u Hala centru"
+                class="h-full w-full object-contain rounded-lg"
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <NuxtImg
+                src="img/Mobilnost2.jpg"
+                format="webp"
+                width="1440"
+                height="1080"
+                alt="Slika upotrebe Dynamo Max uređaja u Hala centru"
+                class="h-full w-full object-contain rounded-lg"
+                loading="lazy"
+              />
+            </div>
+          </div>
         </UPageSection>
+
+        <USeparator color="primary" size="sm" />
 
         <UPageSection
           title="Funkcionalno testiranje"
@@ -137,16 +191,34 @@
           ]"
           :ui="{
             title: 'hover:text-primary',
+            features: 'lg:grid-cols-2',
           }"
           class="opacity-0 intersect:opacity-100 intersect:animate-fade-down animate-duration-[2500] animate-ease-linear transition intersect-once"
         >
-          <NuxtImg
-            src="img/No-Image-Placeholder.svg"
-            format="webp"
-            width="352"
-            height="352"
-            alt="Slika čovjeka u procesu testiranja svojih funkcionalnih sposobnosti u Hala centru"
-          />
+          <div class="flex flex-col justify-center md:flex-row gap-4 md:gap-8 lg:gap-16 mt-8 md:mt-0">
+            <div>
+              <NuxtImg
+                src="img/Funkcionalno.jpg"
+                format="webp"
+                width="1440"
+                height="1080"
+                alt="Slika čovjeka u procesu testiranja svojih funkcionalnih sposobnosti u Hala centru"
+                class="h-full w-full object-cover rounded-lg"
+                loading="lazy"
+              />
+            </div>
+            <div>
+              <NuxtImg
+                src="img/Funkcionalno2.jpg"
+                format="webp"
+                width="1440"
+                height="1080"
+                alt="Slika revizije rezultata u Hala centru"
+                class="h-full w-full object-cover rounded-lg"
+                loading="lazy"
+              />
+            </div>
+          </div>
         </UPageSection>
       </UPage>
     </UContainer>
@@ -158,6 +230,8 @@
 </template>
 
 <script lang="ts" setup>
+import type { features } from 'process';
+
 const welcomeCards = ref([
   {
     title: 'Program',

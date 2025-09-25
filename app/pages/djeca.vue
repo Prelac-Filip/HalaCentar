@@ -61,13 +61,12 @@
           class="opacity-0 intersect:opacity-100 intersect:animate-fade-down animate-duration-[2500] animate-ease-linear transition intersect-once"
         >
           <NuxtImg
-            src="img/No-Image-Placeholder.svg"
+            src="img/Sara_resize.jpg"
             format="webp"
-            width="352"
-            height="352"
-            alt="Slika naše trenerice Sare"
+            alt="Slika naše trenerice Sare - duše Hala Kids programa"
             class="w-full rounded-lg"
-          />
+            loading="lazy"
+      />
         </UPageSection>
       </UPage>
 

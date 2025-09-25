@@ -105,10 +105,8 @@
           reverse
         >
           <NuxtImg
-            src="img/No-Image-Placeholder.svg"
+            src="img/Rekreativci.jpg"
             format="webp"
-            width="352"
-            height="352"
             alt="Slika rekreativca u samostalnom treningu u Hala centru"
             class="w-full rounded-lg"
           />

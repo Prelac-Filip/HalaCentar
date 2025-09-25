@@ -65,12 +65,11 @@
       class="opacity-0 intersect:opacity-100 intersect:animate-fade-left animate-duration-[2500] animate-ease-linear transition intersect-once intersect-half"
     >
       <NuxtImg
-        src="img/Hrvoje2.jpeg"
+        src="img/Hrvoje_resize.jpg"
         format="webp"
-        width="352"
-        height="352"
         alt="Slika našeg trenera Hrvoja"
         class="w-full rounded-lg"
+        loading="lazy"
       />
     </UPageSection>
 
@@ -103,12 +102,11 @@
       class="opacity-0 intersect:opacity-100 intersect:animate-fade-right animate-duration-[2500] animate-ease-linear transition intersect-once intersect-half"
     >
       <NuxtImg
-        src="img/No-Image-Placeholder.svg"
+        src="img/Alen_crop_resize.jpg"
         format="webp"
-        width="352"
-        height="352"
         alt="Slika našeg trenera Alena"
         class="w-full rounded-lg"
+        loading="lazy"
       />
     </UPageSection>
 
@@ -140,12 +138,11 @@
       class="opacity-0 intersect:opacity-100 intersect:animate-fade-left animate-duration-[2500] animate-ease-linear transition intersect-once intersect-half"
     >
       <NuxtImg
-        src="img/No-Image-Placeholder.svg"
+        src="img/Sara_resize.jpg"
         format="webp"
-        width="352"
-        height="352"
         alt="Slika naše trenerice Sare - duše Hala Kids programa"
         class="w-full rounded-lg"
+        loading="lazy"
       />
     </UPageSection>
 

@@ -62,10 +62,8 @@
           class="opacity-0 intersect:opacity-100 intersect:animate-fade-down animate-duration-[2500] animate-ease-linear transition intersect-once"
         >
           <NuxtImg
-            src="img/No-Image-Placeholder.svg"
+            src="img/OnlineTrening.jpg"
             format="webp"
-            width="352"
-            height="352"
             alt="Slika online treninga u Hala centru"
             class="w-full rounded-lg"
           />

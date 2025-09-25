@@ -56,12 +56,10 @@
           class="opacity-0 intersect:opacity-100 intersect:animate-fade-down animate-duration-[2500] animate-ease-linear transition intersect-once"
         >
           <NuxtImg
-            src="img/No-Image-Placeholder.svg"
+            src="img/Sportasi.jpg"
             format="webp"
-            width="352"
-            height="352"
             alt="Slika sportaša u pokretu u Hala centru"
-            class="w-full rounded-lg"
+            class="w-2/3 justify-self-center rounded-lg hover:scale-[130%] transition-transform duration-300"
           />
         </UPageSection>
       </UPage>
