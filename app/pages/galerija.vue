@@ -11,7 +11,7 @@
         />
         
         <UPageBody>
-          <UCarousel v-slot="{ item }" dots :items="treninzi" :ui="{ item: 'basis-1/3' }" arrows loop>
+          <UCarousel v-slot="{ item }" dots :items="treninzi" :ui="{ item: 'basis-1/3' }" arrows loop width="400" height="550">
             <NuxtImg :src="item" class="rounded-xl" width="400" height="550"/>
           </UCarousel>
         </UPageBody>
@@ -29,7 +29,7 @@
         />
         
         <UPageBody>
-          <LazyUCarousel v-slot="{ item }" dots :items="prostor" :ui="{ item: 'basis-1/3' }" arrows loop>
+          <LazyUCarousel v-slot="{ item }" dots :items="prostor" :ui="{ item: 'basis-1/3' }" arrows loop width="800" height="1100">
             <NuxtImg :src="item" class="rounded-xl" width="800" height="1100"/>
           </LazyUCarousel>
         </UPageBody>

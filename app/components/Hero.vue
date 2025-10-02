@@ -138,10 +138,11 @@ function scrollToCards() {
   }
 }
 const pictures = [
-  '/img/test.jpg',
-  '/img/hala.jpg',
-  '/img/hala-sprint.webp',
-  '/img/hala-skok.webp',
+  '/img/dvorana9.jpg',  
+  '/img/dvorana1.jpg',
+  '/img/dvorana2.jpg',
+  '/img/dvorana3.jpg',
+  '/img/dvorana4.jpg',
 ]
 </script>
 

@@ -213,7 +213,7 @@
             </div>
             <div>
               <NuxtImg
-                src="img/Mobilnost.jpg"
+                src="img/Dijagnostika.jpg"
                 format="webp"
                 height="1080"
                 alt="Slika revizije rezultata u Hala centru"
