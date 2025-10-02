@@ -70,7 +70,7 @@
             </div>
             <div>
               <NuxtImg
-                src="img/Morfolosko2.jpg"
+                src="img/MorfološkoChart.png"
                 format="webp"
                 width="1440"
                 height="1080"
@@ -108,6 +108,8 @@
               <NuxtImg
                 src="img/Motoricko.jpg"
                 format="webp"
+                width="1440"
+                height="1080"
                 alt="Slika čovjeka u procesu testiranja svojih motoričkih sposobnosti u Hala centru"
                 class="h-full w-full object-cover rounded-lg"
                 loading="lazy"
@@ -115,8 +117,10 @@
             </div>
             <div>
               <NuxtImg
-                src="img/Motoricko2.jpg"
+                src="img/MotorickoChart.jpeg"
                 format="webp"
+                width="1440"
+                height="1080"
                 alt="Slika revizije rezultata u Hala centru"
                 class="h-full w-full object-cover rounded-lg"
                 loading="lazy"
@@ -150,7 +154,7 @@
           <div class="flex flex-col justify-center md:flex-row gap-4 md:gap-8 lg:gap-16 mt-8 md:mt-0">
             <div>
               <NuxtImg
-                src="img/Mobilnost.jpg"
+                src="img/Mobilnost2.jpg"
                 format="webp"
                 width="1440"
                 height="1080"
@@ -161,7 +165,7 @@
             </div>
             <div>
               <NuxtImg
-                src="img/Mobilnost2.jpg"
+                src="img/SnagaChart.jpeg"
                 format="webp"
                 width="1440"
                 height="1080"
@@ -198,7 +202,7 @@
           <div class="flex flex-col justify-center md:flex-row gap-4 md:gap-8 lg:gap-16 mt-8 md:mt-0">
             <div>
               <NuxtImg
-                src="img/Funkcionalno.jpg"
+                src="img/tymewear.webp"
                 format="webp"
                 width="1440"
                 height="1080"
@@ -209,9 +213,8 @@
             </div>
             <div>
               <NuxtImg
-                src="img/Funkcionalno2.jpg"
+                src="img/Mobilnost.jpg"
                 format="webp"
-                width="1440"
                 height="1080"
                 alt="Slika revizije rezultata u Hala centru"
                 class="h-full w-full object-cover rounded-lg"
@@ -230,7 +233,9 @@
 </template>
 
 <script lang="ts" setup>
-import type { features } from 'process';
+useSeoMeta({
+  description: 'Dijagnostika u Hala Centru – precizna testiranja za sportaše, rekreativce, djecu i osobe u oporavku. Otkrijte svoje mogućnosti i započnite put prema zdravlju i vrhunskim rezultatima.',
+});
 
 const welcomeCards = ref([
   {

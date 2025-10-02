@@ -62,7 +62,7 @@
           class="opacity-0 intersect:opacity-100 intersect:animate-fade-down animate-duration-[2500] animate-ease-linear transition intersect-once"
         >
           <NuxtImg
-            src="img/OnlineTrening.jpg"
+            src="img/OnlineTreninzi.jpg"
             format="webp"
             alt="Slika online treninga u Hala centru"
             class="w-full rounded-lg"
@@ -77,6 +77,10 @@
 </template>
 
 <script lang="ts" setup>
+useSeoMeta({
+  description: 'Online treninzi u Hala Centru – personalizirani programi, stručna analiza i podrška na daljinu za sportaše, rekreativce i trkače. Vježbajte gdje god želite uz profesionalno vođenje i motivaciju.',
+});
+
 const welcomeCards = ref([
   {
     title: 'Izvan granice teretane',

@@ -39,10 +39,8 @@ const links = ref([
     }"
   >
     <NuxtImg
-      src="img/athlete.jpeg"
+      src="img/SportasiHome.jpg"
       format="webp"
-      width="352"
-      height="300"
       alt="Slika sportaša u pokretu"
       class="w-full rounded-lg"
     />

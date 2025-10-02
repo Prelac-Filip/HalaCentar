@@ -40,10 +40,8 @@ const links = ref([
     reverse
   >
     <NuxtImg
-      src="img/recreationist.jpg"
+      src="img/Rekreativci.jpg"
       format="webp"
-      width="352"
-      height="300"
       alt="Slika rekreativca u pokretu tijekom grupnog treninga"
       class="w-full rounded-lg"
     />

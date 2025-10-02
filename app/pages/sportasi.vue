@@ -56,10 +56,10 @@
           class="opacity-0 intersect:opacity-100 intersect:animate-fade-down animate-duration-[2500] animate-ease-linear transition intersect-once"
         >
           <NuxtImg
-            src="img/Sportasi.jpg"
+            src="img/SportasiMeni.jpg"
             format="webp"
             alt="Slika sportaša u pokretu u Hala centru"
-            class="w-2/3 justify-self-center rounded-lg hover:scale-[130%] transition-transform duration-300"
+            class="w-9/12 justify-self-center rounded-lg hover:scale-[130%] transition-transform duration-300"
           />
         </UPageSection>
       </UPage>
@@ -73,6 +73,10 @@
 </template>
 
 <script lang="ts" setup>
+useSeoMeta({
+  description: 'Program za sportaše u Hala Centru – profesionalna dijagnostika, individualni treninzi i stručno vodstvo za razvoj snage, brzine i mentalne izdržljivosti. Izgradite svoju priču o uspjehu uz podršku stručnjaka.',
+});
+
 const welcomeCards = ref([
   {
     title: 'Program',

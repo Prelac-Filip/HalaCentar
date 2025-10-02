@@ -61,10 +61,8 @@
           class="opacity-0 intersect:opacity-100 intersect:animate-fade-down animate-duration-[2500] animate-ease-linear transition intersect-once"
         >
           <NuxtImg
-            src="img/No-Image-Placeholder.svg"
+            src="img/RekreativciGrupni.jpg"
             format="webp"
-            width="352"
-            height="352"
             alt="Slika rekreativaca u grupnom treningu u Hala centru"
             class="w-full rounded-lg"
           />
@@ -105,7 +103,7 @@
           reverse
         >
           <NuxtImg
-            src="img/Rekreativci.jpg"
+            src="img/RekreativciSamostalni.jpg"
             format="webp"
             alt="Slika rekreativca u samostalnom treningu u Hala centru"
             class="w-full rounded-lg"
@@ -121,6 +119,10 @@
 </template>
 
 <script lang="ts" setup>
+useSeoMeta({
+  description: 'Rekreativni programi u Hala Centru – grupni i individualni treninzi za sve razine, stručno vodstvo, dijagnostika i podrška za zdravlje, vitalnost i zajedništvo u motivirajućem okruženju.',
+});
+
 const welcomeCards = ref([
   {
     title: 'Program',

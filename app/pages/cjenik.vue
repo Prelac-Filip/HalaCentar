@@ -1,4 +1,8 @@
 <script setup lang="ts">
+useSeoMeta({
+  description: 'Pregledajte naš cjenik usluga i saznajte više o ponudama Hala Centar – transparentne cijene za dijagnostiku, rehabilitaciju, sport, rekreaciju i online treninge.',
+});
+
 const plans = ref([
   {
     title: 'Sportaši',
@@ -7,7 +11,7 @@ const plans = ref([
     price: '35€',
     terms: '*Cijena testiranja ovisi o potrebnoj bateriji testova',
     features: [
-      'Fokus na snagu, brzinu i mentalnu čvrstoću',
+      'Fokus na snagu, brzinu i izdržljivost',
       'Detaljna dijagnostika',
       'Prilagođeno dobi i razini iskustva'
     ],
@@ -18,7 +22,7 @@ const plans = ref([
   },
   {
     title: 'Rekreativci (grupni trening)',
-    description: 'Grupni treninzi do 8 osoba',
+    description: 'Grupni treninzi do 10 osoba',
     tagline: '2x tjedno / mjesečno',
     price: '60€',
     features: [
@@ -51,7 +55,7 @@ const plans = ref([
     tagline: '2x tjedno / mjesečno',
     price: '45€',
     features: [
-      'Razvoj koordinacije i motoričkih sposobnosti',
+      'Razvoj koordinacije, motoričkih sposobnosti i fine motorike',
       'Sampouzdanje kroz zabavu',
       'Sigurno i podržavajuće okruženje',
       'Voditeljica s iskustvom u radu s djecom' 
@@ -68,7 +72,7 @@ const plans = ref([
     price: '35€',
     terms: '*Cijena dijagnostike ovisi o stanju',
     features: [
-      'Individualizirani oporavak',
+      'Individualizirani plan oporavka',
       'Za mlade sportaše i rekreativce',
       'Precizna dijagnostika',
       'Prilagođeno zdravstvenom stanju' 
@@ -86,7 +90,7 @@ const plans = ref([
     features: [
       'Personalizirani planovi',
       'Za trkače, bicikliste i trail entuzijaste',
-      'Fokus na srčane zone i prevenciju ozljeda'
+      'Fokus na srčane zone, snagu/brzinu i prevenciju ozljeda'
     ],
     button: {
       label: 'Javite nam se',
@@ -133,7 +137,7 @@ const testingPlans = ref([
     }
   },
   {
-    title: 'Mobilnost i snaga',
+    title: 'Mobilnost i jakost',
     features: [
       'Testiranje zglobova',
       'Testiranje mišića',
@@ -148,7 +152,7 @@ const testingPlans = ref([
     title: 'Funkcionalno testiranje',
     features: [
       'Srčane zone',
-      'Disanje',
+      'Ventilacija (disanje)',
     ],
     price: '50€',
     button: {
@@ -174,6 +178,7 @@ const testingPlans = ref([
         </UPageBody>
         <UPageHeader 
           title="Cjenik testiranja" 
+          description="Sva testiranja uključuju pristup aplikaciji sa rezultatima testiranja za analizu rezultata i preporuka za daljnji rad."
           :ui="{
             title: 'hover:text-primary',
           }"

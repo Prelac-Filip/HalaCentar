@@ -11,13 +11,17 @@ export default defineNuxtConfig({
 
   modules: ["@nuxt/ui", "@nuxt/eslint", "@nuxt/image", "nuxt-mail"],
 
+  colorMode: {
+    preference: 'dark',
+  },
+  
   mail: {
     message: {
       to: process.env.NUXT_PUBLIC_EMAIL_USER,
     },
     smtp: {
-      host: "smtp.gmail.com",
-      port: 587,
+      host: "smtp.hostinger.com",
+      port: 465,
       auth: {
           user: process.env.NUXT_PUBLIC_EMAIL_USER,
           pass: process.env.NUXT_EMAIL_PASS,
@@ -29,7 +33,7 @@ export default defineNuxtConfig({
 
   nitro: {
     prerender: {
-      ignore: ["/pridruzi-se"],
+      ignore: ["/pridruzi-se", "/mail/**"],
     },
   },
 

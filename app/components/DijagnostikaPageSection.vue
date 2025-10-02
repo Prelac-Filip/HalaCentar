@@ -40,9 +40,7 @@ const links = ref([
     reverse
   >
     <NuxtImg
-      src="img/sport-diagnostic.webp"
-      width="352"
-      height="300"
+      src="img/Dijagnostika.jpg"
       alt="Slika dijagnostike sportaša"
       class="w-full rounded-lg"
     />

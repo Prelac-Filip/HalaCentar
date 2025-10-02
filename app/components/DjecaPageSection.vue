@@ -39,10 +39,8 @@ const links = ref([
     }"
   >
     <NuxtImg
-      src="img/kids-traning.jpg"
+      src="img/DjecaHome.jpg"
       format="webp"
-      width="352"
-      height="300"
       alt="Slika treninga djece u dvorani"
       class="w-full rounded-lg"
     />

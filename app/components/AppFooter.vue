@@ -17,13 +17,21 @@ const columns = [{
 }, {
     label: 'Kontakt',
     children: [{
-        label: '+385 91 234 5678',
+        label: 'Alen: +385 91 340 6927',
         icon: 'fluent:call-20-regular',
-        to: 'tel:+385912345678'
+        to: 'tel:+385913406927'
+    },{
+        label: 'Hrvoje: +385 98 647 784 ',
+        icon: 'fluent:call-20-regular',
+        to: 'tel:+38598647784'
+    },{
+        label: 'Sara: +385 95 5115 560',
+        icon: 'fluent:call-20-regular',
+        to: 'tel:+385955115560'
     }, {
-        label: 'info@hala.com',
+        label: 'info@halacentar.com',
         icon: 'fluent:mail-20-regular',
-        to: 'mailto:info@hala.com?subject=Upit%20za%20trening'
+        to: 'mailto:info@halacentar.com?subject=Upit%20za%20trening'
     }, {
         label: 'Ul. Milutina Barača, Rijeka, Hrvatska, 51000',
         icon: 'fluent:location-20-regular',

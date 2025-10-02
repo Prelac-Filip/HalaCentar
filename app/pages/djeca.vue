@@ -103,14 +103,7 @@
           class="opacity-0 intersect:opacity-100 intersect:animate-fade-down animate-duration-[2500] animate-ease-linear transition intersect-once"
           reverse
         >
-          <NuxtImg
-            src="img/No-Image-Placeholder.svg"
-            format="webp"
-            width="352"
-            height="352"
-            alt="Slika djece u pokretu u Hala centru"
-            class="w-full rounded-lg"
-          />
+          <iframe class="w-full h-[450px] md:h-5/6 rounded-lg" src="https://www.youtube.com/embed/iuQZ5AKCzDY" title="Video Hala Kids programa u Hala Centru" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </UPageSection>
       </UPage>
     </UContainer>
@@ -122,6 +115,10 @@
 </template>
 
 <script lang="ts" setup>
+useSeoMeta({
+  description: 'Hala Kids – program za djecu od 4 do 10 godina u Hala Centru. Razvoj vještina, prijateljstva i samopouzdanja kroz pokret, igru i stručno vodstvo u sigurnom i poticajnom okruženju.',
+});
+
 const welcomeCards = ref([
   {
     title: 'Program',

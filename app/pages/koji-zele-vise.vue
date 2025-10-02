@@ -41,10 +41,8 @@
         reverse
       >
         <NuxtImg
-          src="img/Hrvoje2.jpeg"
+          src="img/DjecaVise.jpg"
           format="webp"
-          width="352"
-          height="352"
           alt="Slika uspjeha oproravka i radosne djece u Hala centru"
           class="w-full rounded-lg"
         />
@@ -61,10 +59,10 @@
         icon="fluent:vehicle-bicycle-20-regular"
       >
         <NuxtImg
-          src="img/Hrvoje2.jpeg"
+          src="img/Izdrzljivost.jpg"
           format="webp"
-          width="352"
-          height="352"
+          width="810"
+          height="950"
           alt="Slika treninga izdržljivosti u Hala centru"
           class="w-full rounded-lg"
         />
@@ -109,7 +107,9 @@
 </template>
 
 <script lang="ts" setup>
-
+useSeoMeta({
+  description: 'Programi Hala Centra za sportaše, rekreativce, djecu i osobe u rehabilitaciji – individualni pristup, stručnost i zajedništvo za ostvarenje vaših ciljeva, napredak i radost pokreta u inspirativnoj atmosferi.',
+});
 </script>
 
 <style>

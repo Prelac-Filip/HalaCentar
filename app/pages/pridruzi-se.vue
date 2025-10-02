@@ -1,4 +1,8 @@
 <script setup lang="ts">
+useSeoMeta({
+  description: 'Pridružite se Hala Centru – pošaljite upit za sportaške, rekreativne, dječje ili rehabilitacijske programe. Osigurajte individualni pristup, stručnost i podršku za svoj napredak.',
+});
+
 import type { FormError, FormSubmitEvent } from '@nuxt/ui'
 const route = useRoute()
 const planRef = route.query.plan as string | undefined;

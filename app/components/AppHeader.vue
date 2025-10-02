@@ -50,7 +50,6 @@ const items = ref<NavigationMenuItem[][]>([
         <NuxtLink to="/">
           <AppLogo class="w-auto h-14 shrink-0" />
         </NuxtLink>
-        <ULink to="/">Hala Centar</ULink>
       </div>
     </template>
 
@@ -60,8 +59,9 @@ const items = ref<NavigationMenuItem[][]>([
 
     <template #right> 
         <UButton icon="fa7-solid:film" size="md" variant="link" color="neutral" to="/galerija"/>
-        <UButton icon="fa6-brands:instagram" size="md" variant="link" color="neutral" to="https:\\instagram.com" target="_blank"/>
-        <UButton icon="fa6-brands:facebook" size="md" variant="link" color="neutral" to="https:\\facebook.com" target="_blank"/>
+        <UButton icon="fa6-brands:instagram" size="md" variant="link" color="neutral" to="https:\\instagram.com/hala_centar" target="_blank"/>
+        <UButton icon="fa6-brands:facebook" size="md" variant="link" color="neutral" to="https:\\facebook.com/halacentar" target="_blank"/>
+        <UButton icon="fa6-brands:youtube" size="md" variant="link" color="neutral" to="https:\\youtube.com/@HalaCentar/videos" target="_blank"/>
 
         <UColorModeButton />
     </template>

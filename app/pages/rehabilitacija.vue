@@ -78,6 +78,10 @@
 </template>
 
 <script lang="ts" setup>
+useSeoMeta({
+  description: 'Rehabilitacija u Hala centru – individualni pristup oporavku, stručno vođeni programi za sportaše i rekreativce, povratak snazi i slobodi pokreta kroz inovativne metode i podršku.',
+});
+
 const welcomeCards = ref([
   {
     title: 'Program',

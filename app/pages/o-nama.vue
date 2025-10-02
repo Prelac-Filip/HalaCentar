@@ -156,6 +156,10 @@
 </template>
 
 <script lang="ts" setup>
+useSeoMeta({
+  description: 'O Hala Centru – stručni tim trenera, individualni pristup i zajednica koja inspirira. Saznajte više o našoj misiji, vrijednostima i podršci za sportaše, rekreativce i djecu.',
+});
+
 const welcomeCards = ref([
   {
     title: 'Hala Centar',

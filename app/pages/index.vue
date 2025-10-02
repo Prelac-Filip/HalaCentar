@@ -1,4 +1,8 @@
 <script setup lang="ts">
+useSeoMeta({
+  description: 'Hala Centar – mjesto za sportaše, rekreativce, djecu i osobe u rehabilitaciji. Otkrijte programe, stručni tim i inspirativnu zajednicu kroz treninge, dijagnostiku i podršku za vaš napredak.',
+});
+
 const testimonials = ref([
   {
     user: {
