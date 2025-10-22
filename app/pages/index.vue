@@ -1,4 +1,13 @@
 <script setup lang="ts">
+useHead({
+  meta: [
+        {
+          name: "facebook-domain-verification",
+          content: "syo1b4ckgpdfe7c83e9uidzofcbtx9",
+        },
+      ],
+});
+
 useSeoMeta({
   description: 'Hala Centar – mjesto za sportaše, rekreativce, djecu i osobe u rehabilitaciji. Otkrijte programe, stručni tim i inspirativnu zajednicu kroz treninge, dijagnostiku i podršku za vaš napredak.',
 });

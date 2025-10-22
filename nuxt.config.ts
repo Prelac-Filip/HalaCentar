@@ -3,18 +3,21 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   runtimeConfig: {
-    emailPass: process.env.NUXT_EMAIL_PASS, 
+    emailPass: process.env.NUXT_EMAIL_PASS,
     public: {
       emailUser: process.env.NUXT_PUBLIC_EMAIL_USER,  // can be overridden by NUXT_PUBLIC_API_BASE environment variable
+      metapixel: {
+        default: { id: process.env.META_PIXEL_ID || '' },
+      },
     }
   },
 
-  modules: ["@nuxt/ui", "@nuxt/eslint", "@nuxt/image", "nuxt-mail"],
+  modules: ["@nuxt/ui", "@nuxt/eslint", "@nuxt/image", "nuxt-mail", "nuxt-meta-pixel"],
 
   colorMode: {
     preference: 'dark',
   },
-  
+
   mail: {
     message: {
       to: process.env.NUXT_PUBLIC_EMAIL_USER,
@@ -23,9 +26,9 @@ export default defineNuxtConfig({
       host: "smtp.hostinger.com",
       port: 465,
       auth: {
-          user: process.env.NUXT_PUBLIC_EMAIL_USER,
-          pass: process.env.NUXT_EMAIL_PASS,
-        },
+        user: process.env.NUXT_PUBLIC_EMAIL_USER,
+        pass: process.env.NUXT_EMAIL_PASS,
+      },
     },
   },
 
